@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AzoSans-Regular.otf">
+            <string>AzoSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Concor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Fondo" translatesAutoresizingMaskIntoConstraints="NO" id="oSo-gC-DAk">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Cinta" translatesAutoresizingMaskIntoConstraints="NO" id="cyn-tv-9DE">
+                                <rect key="frame" x="0.0" y="40" width="1024" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="9hn-2X-3zu">
+                                <rect key="frame" x="297" y="189" width="434" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="Bvq-SU-DRb">
+                                <rect key="frame" x="228" y="219" width="572" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Item1" translatesAutoresizingMaskIntoConstraints="NO" id="RCw-ar-aio">
+                                <rect key="frame" x="240" y="342" width="135" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Item2" translatesAutoresizingMaskIntoConstraints="NO" id="xaI-40-Wjg">
+                                <rect key="frame" x="374" y="342" width="109" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Item3" translatesAutoresizingMaskIntoConstraints="NO" id="aCN-jr-lY1">
+                                <rect key="frame" x="492" y="346" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide01Item4" translatesAutoresizingMaskIntoConstraints="NO" id="0tl-yw-HCr">
+                                <rect key="frame" x="640" y="340" width="140" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide02Corazon" translatesAutoresizingMaskIntoConstraints="NO" id="iyo-XD-JVx">
+                                <rect key="frame" x="310" y="189" width="439" height="393"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-bs-IrA">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AzoSans-Regular" family="Azo Sans" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide04Texto" translatesAutoresizingMaskIntoConstraints="NO" id="Rlp-u7-50Z">
+                                <rect key="frame" x="480" y="123" width="545" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03Item12" translatesAutoresizingMaskIntoConstraints="NO" id="bhZ-Jt-IXA">
+                                <rect key="frame" x="911" y="332" width="106" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03Item11" translatesAutoresizingMaskIntoConstraints="NO" id="tT1-kj-3G2">
+                                <rect key="frame" x="938" y="267" width="82" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03Item22" translatesAutoresizingMaskIntoConstraints="NO" id="U5B-Kq-QFo">
+                                <rect key="frame" x="782" y="636" width="188" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03Item21" translatesAutoresizingMaskIntoConstraints="NO" id="rPJ-a8-LRK">
+                                <rect key="frame" x="832" y="550" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03Texto" translatesAutoresizingMaskIntoConstraints="NO" id="SGJ-It-Mt5">
+                                <rect key="frame" x="17" y="336" width="704" height="391"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07FondoCorazon" translatesAutoresizingMaskIntoConstraints="NO" id="45U-oA-vdF">
+                                <rect key="frame" x="658" y="327" width="176" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide03PildoraRed" translatesAutoresizingMaskIntoConstraints="NO" id="AsM-W6-CMX">
+                                <rect key="frame" x="859" y="426" width="98" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartGrey01" translatesAutoresizingMaskIntoConstraints="NO" id="aZb-C0-o3r">
+                                <rect key="frame" x="754" y="484" width="138" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartYellow01" translatesAutoresizingMaskIntoConstraints="NO" id="IeD-Xz-Otb">
+                                <rect key="frame" x="565" y="651" width="143" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartYellow01" translatesAutoresizingMaskIntoConstraints="NO" id="9yd-5T-EbT">
+                                <rect key="frame" x="83" y="74" width="143" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartYellow03" translatesAutoresizingMaskIntoConstraints="NO" id="udn-3N-yPq">
+                                <rect key="frame" x="281" y="321" width="144" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillRed01" translatesAutoresizingMaskIntoConstraints="NO" id="3iW-bS-Q9B">
+                                <rect key="frame" x="452" y="668" width="119" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillRed02" translatesAutoresizingMaskIntoConstraints="NO" id="kzM-hs-C4l">
+                                <rect key="frame" x="851" y="599" width="86" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pill02" translatesAutoresizingMaskIntoConstraints="NO" id="WMm-wC-mY2">
+                                <rect key="frame" x="687" y="584" width="117" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillRed03" translatesAutoresizingMaskIntoConstraints="NO" id="d0F-Vc-XQ9">
+                                <rect key="frame" x="425" y="364" width="111" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pill01" translatesAutoresizingMaskIntoConstraints="NO" id="qLF-xm-LBH">
+                                <rect key="frame" x="188" y="238" width="114" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heartGrey02" translatesAutoresizingMaskIntoConstraints="NO" id="LDO-SQ-yyr">
+                                <rect key="frame" x="234" y="109" width="143" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillRed03" translatesAutoresizingMaskIntoConstraints="NO" id="iXP-yt-9fa">
+                                <rect key="frame" x="-31" y="0.0" width="111" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide04Bola" translatesAutoresizingMaskIntoConstraints="NO" id="8WO-kQ-Vqg">
+                                <rect key="frame" x="782" y="675" width="82" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide04Bola" translatesAutoresizingMaskIntoConstraints="NO" id="PPN-ha-AGt">
+                                <rect key="frame" x="935" y="608" width="82" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillRed03" translatesAutoresizingMaskIntoConstraints="NO" id="ymE-50-hQ9">
+                                <rect key="frame" x="574" y="515" width="111" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Img" translatesAutoresizingMaskIntoConstraints="NO" id="hhK-Rb-Vx7">
+                                <rect key="frame" x="0.0" y="221" width="466" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Flechas" translatesAutoresizingMaskIntoConstraints="NO" id="uuL-OU-JG2">
+                                <rect key="frame" x="412" y="364" width="105" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NWN-cu-O0K">
+                                <rect key="frame" x="794" y="648" width="186" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Texto" translatesAutoresizingMaskIntoConstraints="NO" id="TIE-KI-EEw">
+                                <rect key="frame" x="521" y="382" width="349" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Tabletas" translatesAutoresizingMaskIntoConstraints="NO" id="NBq-2G-b0u">
+                                <rect key="frame" x="-202" y="249" width="577" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide05Caja" translatesAutoresizingMaskIntoConstraints="NO" id="9Nd-14-NDf">
+                                <rect key="frame" x="-553" y="238" width="981" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06Img" translatesAutoresizingMaskIntoConstraints="NO" id="I3S-eg-tDs">
+                                <rect key="frame" x="0.0" y="190" width="763" height="394"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="mqR-fZ-uNJ">
+                                <rect key="frame" x="60" y="169" width="587" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="gbu-Cw-i9r">
+                                <rect key="frame" x="675" y="15" width="350" height="523"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06Texto2a" translatesAutoresizingMaskIntoConstraints="NO" id="uXd-ig-eDa">
+                                <rect key="frame" x="732" y="311" width="256" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06Texto3" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-B0-Pjs">
+                                <rect key="frame" x="54" y="571" width="560" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide06PoPTexto" translatesAutoresizingMaskIntoConstraints="NO" id="2Cc-Uu-VoN">
+                                <rect key="frame" x="242" y="-3" width="765" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sH-T7-EWn">
+                                <rect key="frame" x="304" y="238" width="384" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnSlide6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Si1-eu-zP3"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="B0c-C2-JxI">
+                                <rect key="frame" x="0.0" y="0.0" width="309" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="1N0-jz-X1t">
+                                <rect key="frame" x="193" y="256" width="290" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07texto3" translatesAutoresizingMaskIntoConstraints="NO" id="eAI-ov-JDj">
+                                <rect key="frame" x="116" y="445" width="364" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07Logo" translatesAutoresizingMaskIntoConstraints="NO" id="qed-k2-idY">
+                                <rect key="frame" x="438" y="672" width="148" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07FondoCorazon" translatesAutoresizingMaskIntoConstraints="NO" id="AtR-n9-zB1">
+                                <rect key="frame" x="598" y="276" width="252" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide07PopTexto" translatesAutoresizingMaskIntoConstraints="NO" id="9DL-CU-zOh">
+                                <rect key="frame" x="243" y="280" width="481" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="if2-3I-ma7">
+                                <rect key="frame" x="696" y="0.0" width="328" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="Jxl-TU-srf">
+                                <rect key="frame" x="500" y="301" width="423" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Texto3" translatesAutoresizingMaskIntoConstraints="NO" id="p2g-0x-ZuK">
+                                <rect key="frame" x="544" y="419" width="394" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Img" translatesAutoresizingMaskIntoConstraints="NO" id="1iH-Le-MfU">
+                                <rect key="frame" x="0.0" y="11" width="480" height="761"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Corazon" translatesAutoresizingMaskIntoConstraints="NO" id="9L6-Cv-g2r">
+                                <rect key="frame" x="30" y="273" width="443" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08Texto2a" translatesAutoresizingMaskIntoConstraints="NO" id="oCX-Up-ZHj">
+                                <rect key="frame" x="533" y="320" width="384" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide08PopTexto" translatesAutoresizingMaskIntoConstraints="NO" id="Bvu-he-PQi">
+                                <rect key="frame" x="195" y="344" width="688" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Titulo" translatesAutoresizingMaskIntoConstraints="NO" id="svf-Rr-Nh7">
+                                <rect key="frame" x="803" y="51" width="222" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Img2" translatesAutoresizingMaskIntoConstraints="NO" id="pnI-0Y-rt0">
+                                <rect key="frame" x="-1" y="74" width="399" height="698"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Img1" translatesAutoresizingMaskIntoConstraints="NO" id="Nbm-Q6-uhh">
+                                <rect key="frame" x="382" y="132" width="652" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Corazon" translatesAutoresizingMaskIntoConstraints="NO" id="XnH-qr-riQ">
+                                <rect key="frame" x="34" y="286" width="359" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Referencia01" translatesAutoresizingMaskIntoConstraints="NO" id="9KM-Ld-HeI">
+                                <rect key="frame" x="626" y="683" width="322" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide09Referencia02" translatesAutoresizingMaskIntoConstraints="NO" id="r6J-PP-f8k">
+                                <rect key="frame" x="626" y="673" width="365" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicador01" translatesAutoresizingMaskIntoConstraints="NO" id="TxA-Ad-LaG">
+                                <rect key="frame" x="640" y="557" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicador01" translatesAutoresizingMaskIntoConstraints="NO" id="zHr-P5-50k">
+                                <rect key="frame" x="620" y="557" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicador01" translatesAutoresizingMaskIntoConstraints="NO" id="zUR-Xq-dED">
+                                <rect key="frame" x="660" y="557" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="indicador01" translatesAutoresizingMaskIntoConstraints="NO" id="4gc-dB-92v">
+                                <rect key="frame" x="680" y="557" width="14" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZo-KQ-71h">
+                                <rect key="frame" x="443" y="219" width="412" height="328"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide10Texto2" translatesAutoresizingMaskIntoConstraints="NO" id="RDV-fn-Jyd">
+                                <rect key="frame" x="581" y="181" width="581" height="456"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide10Texto1" translatesAutoresizingMaskIntoConstraints="NO" id="aC1-3g-q0k">
+                                <rect key="frame" x="96" y="98" width="369" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide10Texto3" translatesAutoresizingMaskIntoConstraints="NO" id="Ydi-BU-FWt">
+                                <rect key="frame" x="766" y="676" width="207" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="slide10Img" translatesAutoresizingMaskIntoConstraints="NO" id="i2g-Wz-0yQ">
+                                <rect key="frame" x="104" y="251" width="407" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rau-f0-Ulk">
+                                <rect key="frame" x="488" y="346" width="144" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnCorazon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iTj-Nb-RNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jE-ow-oqc">
+                                <rect key="frame" x="234" y="273" width="492" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnSlide07:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NtS-bk-Wm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSv-gZ-2jB">
+                                <rect key="frame" x="193" y="336" width="690" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="btnSlide08:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmh-LT-y7e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCorazon" destination="rau-f0-Ulk" id="Ui5-xn-5hz"/>
+                        <outlet property="btnSlide07" destination="1jE-ow-oqc" id="dN4-ep-sIg"/>
+                        <outlet property="btnSlide08" destination="TSv-gZ-2jB" id="pSd-oJ-lEv"/>
+                        <outlet property="btnSlide6" destination="0sH-T7-EWn" id="f6v-h6-JqK"/>
+                        <outlet property="fondo" destination="oSo-gC-DAk" id="AvK-FT-Mwr"/>
+                        <outlet property="heartGrey1" destination="LDO-SQ-yyr" id="KLn-Tx-BhU"/>
+                        <outlet property="heartGrey2" destination="aZb-C0-o3r" id="vXg-x7-Ctx"/>
+                        <outlet property="heartYellow1" destination="9yd-5T-EbT" id="alX-ce-F7Z"/>
+                        <outlet property="heartYellow2" destination="udn-3N-yPq" id="W8b-1P-lKF"/>
+                        <outlet property="heartYellow3" destination="IeD-Xz-Otb" id="CxC-VR-6mM"/>
+                        <outlet property="lblParrafo1" destination="EZo-KQ-71h" id="mNj-l7-MBV"/>
+                        <outlet property="pildora01" destination="qLF-xm-LBH" id="E9N-L2-goi"/>
+                        <outlet property="pildora02" destination="WMm-wC-mY2" id="uAf-0c-jH3"/>
+                        <outlet property="pildoraGrey01" destination="8WO-kQ-Vqg" id="BiC-8h-dQM"/>
+                        <outlet property="pildoraGrey02" destination="PPN-ha-AGt" id="WKm-Ar-OHg"/>
+                        <outlet property="pildoraRed01" destination="iXP-yt-9fa" id="uvW-u1-QJ8"/>
+                        <outlet property="pildoraRed02" destination="d0F-Vc-XQ9" id="Me5-4Y-WXL"/>
+                        <outlet property="pildoraRed03" destination="ymE-50-hQ9" id="Vxj-pr-V0w"/>
+                        <outlet property="pildoraRed04" destination="3iW-bS-Q9B" id="Yk8-3u-IFV"/>
+                        <outlet property="pildoraRed05" destination="kzM-hs-C4l" id="plL-pz-LHL"/>
+                        <outlet property="slide01Cinta" destination="cyn-tv-9DE" id="Dpc-uw-U33"/>
+                        <outlet property="slide01Item1" destination="RCw-ar-aio" id="f1I-bj-xU3"/>
+                        <outlet property="slide01Item2" destination="xaI-40-Wjg" id="2a4-U6-JD7"/>
+                        <outlet property="slide01Item3" destination="aCN-jr-lY1" id="7sk-Va-PM1"/>
+                        <outlet property="slide01Item4" destination="0tl-yw-HCr" id="WGS-Bt-SSd"/>
+                        <outlet property="slide01Texto1" destination="9hn-2X-3zu" id="iWT-ua-amK"/>
+                        <outlet property="slide01Texto2" destination="Bvq-SU-DRb" id="tWY-3h-0YU"/>
+                        <outlet property="slide02Corazon" destination="iyo-XD-JVx" id="cnM-VY-rHY"/>
+                        <outlet property="slide02TextoCorazon" destination="7dg-bs-IrA" id="UGr-EI-QzR"/>
+                        <outlet property="slide03Corazon" destination="45U-oA-vdF" id="aCp-LR-RDe"/>
+                        <outlet property="slide03Item11" destination="tT1-kj-3G2" id="oOA-X0-kLR"/>
+                        <outlet property="slide03Item12" destination="bhZ-Jt-IXA" id="No1-ea-vyH"/>
+                        <outlet property="slide03Item21" destination="rPJ-a8-LRK" id="13y-wa-JZs"/>
+                        <outlet property="slide03Item22" destination="U5B-Kq-QFo" id="Qn4-PT-XIL"/>
+                        <outlet property="slide03PildoraRed" destination="AsM-W6-CMX" id="Yxw-yB-zc9"/>
+                        <outlet property="slide03Texto" destination="SGJ-It-Mt5" id="9SJ-sd-sEc"/>
+                        <outlet property="slide04Texto" destination="Rlp-u7-50Z" id="UGV-o3-29F"/>
+                        <outlet property="slide05Caja" destination="9Nd-14-NDf" id="UrN-Uh-lt7"/>
+                        <outlet property="slide05Flechas" destination="uuL-OU-JG2" id="WGY-7J-faI"/>
+                        <outlet property="slide05Img" destination="hhK-Rb-Vx7" id="Sm5-ch-oWa"/>
+                        <outlet property="slide05Logo" destination="NWN-cu-O0K" id="M0c-tx-4SX"/>
+                        <outlet property="slide05Tabletas" destination="NBq-2G-b0u" id="gHL-ve-JCk"/>
+                        <outlet property="slide05Texto" destination="TIE-KI-EEw" id="z9c-dE-3ui"/>
+                        <outlet property="slide06Img" destination="I3S-eg-tDs" id="2pn-5v-SGP"/>
+                        <outlet property="slide06PopTexto" destination="2Cc-Uu-VoN" id="Btq-Ce-S96"/>
+                        <outlet property="slide06Texto1" destination="mqR-fZ-uNJ" id="OGP-aV-K2w"/>
+                        <outlet property="slide06Texto2" destination="gbu-Cw-i9r" id="YPG-Dr-qZH"/>
+                        <outlet property="slide06Texto2a" destination="uXd-ig-eDa" id="qVI-gs-IO3"/>
+                        <outlet property="slide06Texto3" destination="TfH-B0-Pjs" id="a80-Em-IqW"/>
+                        <outlet property="slide07Corazon" destination="AtR-n9-zB1" id="fBd-2a-Qgn"/>
+                        <outlet property="slide07Logo" destination="qed-k2-idY" id="5Fw-6D-dtx"/>
+                        <outlet property="slide07PopTexto" destination="9DL-CU-zOh" id="4SH-mh-Mse"/>
+                        <outlet property="slide07Texto1" destination="B0c-C2-JxI" id="FzK-LT-3aB"/>
+                        <outlet property="slide07Texto2" destination="1N0-jz-X1t" id="0QU-Jt-3gi"/>
+                        <outlet property="slide07Texto3" destination="eAI-ov-JDj" id="KLz-gD-yj4"/>
+                        <outlet property="slide08Corazon" destination="9L6-Cv-g2r" id="o1L-4m-HZc"/>
+                        <outlet property="slide08Img" destination="1iH-Le-MfU" id="sjP-MZ-yXP"/>
+                        <outlet property="slide08PopTexto" destination="Bvu-he-PQi" id="r2v-Lk-MGN"/>
+                        <outlet property="slide08Texto1" destination="if2-3I-ma7" id="lwb-tB-HhC"/>
+                        <outlet property="slide08Texto2" destination="Jxl-TU-srf" id="uqA-gf-2IB"/>
+                        <outlet property="slide08Texto2a" destination="oCX-Up-ZHj" id="miV-tx-9y8"/>
+                        <outlet property="slide08Texto3" destination="p2g-0x-ZuK" id="yuj-Tk-2Hv"/>
+                        <outlet property="slide09Corazon" destination="XnH-qr-riQ" id="6qa-na-Wvz"/>
+                        <outlet property="slide09Img1" destination="Nbm-Q6-uhh" id="RO5-Em-B7g"/>
+                        <outlet property="slide09Img2" destination="pnI-0Y-rt0" id="cXF-6K-Eds"/>
+                        <outlet property="slide09Indicador1" destination="zHr-P5-50k" id="fdE-fC-Ndn"/>
+                        <outlet property="slide09Indicador2" destination="TxA-Ad-LaG" id="VrB-hb-k52"/>
+                        <outlet property="slide09Indicador3" destination="zUR-Xq-dED" id="seZ-yF-ySe"/>
+                        <outlet property="slide09Indicador4" destination="4gc-dB-92v" id="J8q-Yk-mHS"/>
+                        <outlet property="slide09Referencia1" destination="9KM-Ld-HeI" id="282-rn-30r"/>
+                        <outlet property="slide09Referencia2" destination="r6J-PP-f8k" id="3Wd-q8-AwI"/>
+                        <outlet property="slide09Titulo" destination="svf-Rr-Nh7" id="jL0-q0-YEi"/>
+                        <outlet property="slide10Img" destination="i2g-Wz-0yQ" id="Ysh-kc-MTE"/>
+                        <outlet property="slide10Texto1" destination="aC1-3g-q0k" id="nKW-Ln-5fk"/>
+                        <outlet property="slide10Texto2" destination="RDV-fn-Jyd" id="0PS-HF-gel"/>
+                        <outlet property="slide10Texto3" destination="Ydi-BU-FWt" id="Ta1-6H-Tak"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.6953125" y="138.28125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heartGrey01" width="96" height="91"/>
+        <image name="heartGrey02" width="95" height="89"/>
+        <image name="heartYellow01" width="95" height="86"/>
+        <image name="heartYellow03" width="95" height="94"/>
+        <image name="indicador01" width="14" height="14"/>
+        <image name="pill01" width="75" height="76"/>
+        <image name="pill02" width="78" height="78"/>
+        <image name="pillRed01" width="79" height="59"/>
+        <image name="pillRed02" width="57" height="79"/>
+        <image name="pillRed03" width="73" height="69"/>
+        <image name="slide01Cinta" width="1024" height="728"/>
+        <image name="slide01Item1" width="134" height="133"/>
+        <image name="slide01Item2" width="109" height="134"/>
+        <image name="slide01Item3" width="145" height="130"/>
+        <image name="slide01Item4" width="139" height="135"/>
+        <image name="slide01Texto1" width="434" height="32"/>
+        <image name="slide01Texto2" width="571" height="42"/>
+        <image name="slide02Corazon" width="439" height="392"/>
+        <image name="slide03Item11" width="81" height="81"/>
+        <image name="slide03Item12" width="105" height="30"/>
+        <image name="slide03Item21" width="105" height="104"/>
+        <image name="slide03Item22" width="188" height="46"/>
+        <image name="slide03PildoraRed" width="97" height="69"/>
+        <image name="slide03Texto" width="704" height="391"/>
+        <image name="slide04Bola" width="81" height="81"/>
+        <image name="slide04Texto" width="544" height="391"/>
+        <image name="slide05Caja" width="981" height="309"/>
+        <image name="slide05Flechas" width="104" height="60"/>
+        <image name="slide05Img" width="466" height="363"/>
+        <image name="slide05Logo" width="186" height="73"/>
+        <image name="slide05Tabletas" width="576" height="252"/>
+        <image name="slide05Texto" width="349" height="75"/>
+        <image name="slide06Img" width="763" height="394"/>
+        <image name="slide06PoPTexto" width="765" height="574"/>
+        <image name="slide06Texto1" width="586" height="26"/>
+        <image name="slide06Texto2" width="349" height="522"/>
+        <image name="slide06Texto2a" width="255" height="112"/>
+        <image name="slide06Texto3" width="560" height="103"/>
+        <image name="slide07FondoCorazon" width="253" height="233"/>
+        <image name="slide07Logo" width="147" height="58"/>
+        <image name="slide07PopTexto" width="463" height="190"/>
+        <image name="slide07Texto1" width="308" height="312"/>
+        <image name="slide07Texto2" width="289" height="163"/>
+        <image name="slide07texto3" width="363" height="155"/>
+        <image name="slide08Corazon" width="442" height="315"/>
+        <image name="slide08Fondo" width="943" height="705"/>
+        <image name="slide08Img" width="480" height="761"/>
+        <image name="slide08PopTexto" width="688" height="126"/>
+        <image name="slide08Texto1" width="328" height="290"/>
+        <image name="slide08Texto2" width="452" height="107"/>
+        <image name="slide08Texto2a" width="384" height="70"/>
+        <image name="slide08Texto3" width="393" height="188"/>
+        <image name="slide09Corazon" width="358" height="255"/>
+        <image name="slide09Img1" width="652" height="569"/>
+        <image name="slide09Img2" width="399" height="698"/>
+        <image name="slide09Referencia01" width="322" height="30"/>
+        <image name="slide09Referencia02" width="364" height="52"/>
+        <image name="slide09Titulo" width="221" height="213"/>
+        <image name="slide10Img" width="407" height="338"/>
+        <image name="slide10Texto1" width="368" height="145"/>
+        <image name="slide10Texto2" width="506" height="456"/>
+        <image name="slide10Texto3" width="207" height="33"/>
+    </resources>
+</document>
